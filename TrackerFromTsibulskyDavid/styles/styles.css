@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+div {
+    color: grey;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    width: 220px;
+}
+
+p {
+    font-size: 9px;
+    margin-top: 15px;
+    color: lightsteelblue;
+}
+
+section {
+    padding: 10px;
+    text-align: center;
+}
+
+#trackers-header {
+    margin: 10px 0;
+}
+
+#clear {
+    display: none;
+    color: dodgerblue;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#facebook-icon, #google-icon, #twitter-icon, #tiktok-icon, #linkedin-icon {
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+#facebook-icon {
+    background: url(/icons/facebook-black.png) no-repeat center;
+}
+
+#google-icon {
+    background: url(/icons/google-black.png) no-repeat center;
+}
+
+#twitter-icon {
+    background: url(/icons/twitter-black.png) no-repeat center;
+}
+
+#tiktok-icon {
+    background: url(/icons/tiktok-black.png) no-repeat center;
+}
+
+#linkedin-icon {
+    background: url(/icons/linkedin-black.png) no-repeat center;
+}
+
+.tracker-name {
+    display: block;
+    text-align: left;
+    width: 120px;
+}
+
+button:hover {
+    background-color: #525252;
+}
+
+button {
+    padding: 4px;
+    height: 25px;
+    transition-duration: 0.4s;
+    background-color: orange;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#loading {
+    position: absolute;
+    background-position: c;
+    height: 250px;
+    width: 250px;
+}
+
+#no-tracker-found-message {
+    display: none;
+    position: relative;
+    margin: 20px auto;
+    width: 250px;
+    color: rgb(35, 165, 35);
+    text-align: center;
+}

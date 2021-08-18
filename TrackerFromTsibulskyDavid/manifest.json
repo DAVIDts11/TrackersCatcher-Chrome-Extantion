@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "tracker-308428226_309444065_316086479",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "run_at": "document_idle",
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_title": "TrackDetector",
+        "default_icon": "icons/spider.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage"
+    ]
+}

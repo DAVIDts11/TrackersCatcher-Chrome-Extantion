@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="js/PageService.js"></script>
+        <script src="js/popup.js"></script>
+        <title>Track The Trackers</title>
+    </head>
+    <body>
+        <h1>Track The Trackers!</h1>
+        <br>
+        <img id="loading" src="/icons/loading2.gif" alt="loading">
+        <main>
+            <div id="facebook">
+                <span id="facebook-icon"></span>
+                <span class="tracker-name">Facebook</span>
+                <button id="facebook-all">Show All</button>
+            </div>
+            <div id="google">
+                <span id="google-icon"></span>
+                <span class="tracker-name">Google</span>
+                <button id="google-all">Show All</button>
+            </div>
+            <div id="twitter">
+                <span id="twitter-icon"></span>
+                <span class="tracker-name">Twitter</span>
+                <button id="twitter-all">Show All</button>
+            </div>
+            <div id="tiktok">
+                <span id="tiktok-icon"></span>
+                <span class="tracker-name">TikTok</span>
+                <button id="tiktok-all">Show All</button>
+            </div>
+            <div id="linkedin">
+                <span id="linkedin-icon"></span>
+                <span class="tracker-name">Linkedin</span>
+                <button id="linkedin-all">Show All</button>
+            </div>
+            <h3 id="no-tracker-found-message">This site is not tracking you !</h3>
+            <section>
+                <h2 id="trackers-header"></h2>
+                <ul id="trackers-list"></ul>
+            </section>
+            <a id="clear">HIDE</a>
+        </main>
+        <footer>
+            <p>
+                &copy; by David Tsibulsky, Chen Nahoom and Omri Haham.
+            </p>
+        </footer>
+    </body>
+</html>
